@@ -23,11 +23,11 @@ print(y)
 
 
 def modify_list(lst):
- lst.append(4) # Modifies the original list
+ lst.append(4) # Modifies the  list
 
 numbers = [1, 2, 3]
 modify_list(numbers)
-print(numbers) # Output: [1, 2, 3, 4]
+# Output: [1, 2, 3, 4]
 
 def try_modify_string(s):
  s = "new value" # Creates a new local string
@@ -57,4 +57,5 @@ counter = create_counter()
 print(counter()) # 1
 print(counter()) # 2
 
+#Hello
 
